@@ -1,0 +1,98 @@
+.button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px; /* Adjust the space between buttons */
+    }
+    
+    .update-button,
+    .confirm-button {
+      padding: 10px 20px; /* Adjust the padding as needed */
+      font-size: 16px; /* Adjust the font size as needed */
+      border: none;
+      border-radius: 5px; /* Adjust the border radius as needed */
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .update-button {
+      background-color: #007bff; /* Adjust the background color */
+      color: white; /* Adjust the text color */
+    }
+    
+    .update-button:hover {
+      background-color: #0056b3; /* Adjust the hover background color */
+    }
+    
+    .confirm-button {
+      background-color: #28a745; /* Adjust the background color */
+      color: white; /* Adjust the text color */
+    }
+    
+    .confirm-button:hover {
+      background-color: #218838; /* Adjust the hover background color */
+    }
+
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic);
+
+body {
+	overflow-x: hidden;
+	font: 400 16px/1.8 'Crimson Text', serif;
+	color: #666;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: #F5D76E;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #999;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font: 700 54px/1.2 'Crimson Text', cursive;
+	margin: 0 0 20px;
+	color: #000;
+}
+
+.cla{
+  font: 700 28px/1.2 'Dancing Script', cursive;
+	margin: 0 0 18px;
+  font-size: 50px;
+  color: rgb(65, 65, 65);
+  font-weight: bold;
+}
+
+h2 {
+	font-size: 48px;
+	margin: 0 0 18px;
+}
+
+h3 {
+	font-size: 40px;
+	margin: 0 0 15px;
+}
+
+h4 {
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0 0 8px;
+}
+
+h6 {
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0 0 5px;
+}
